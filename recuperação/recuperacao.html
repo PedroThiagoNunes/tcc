@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de senha</titl>
+    </title>
+    <link rel="stylesheet" href="recuperacao.css">
+</head>
+<body>
+    <body>
+       <div class="container">
+        <h2>
+            Esqueci minha senha
+        </h2>
+
+        <p id="mensagem">
+            Informe seu e-mail para receber o codigo de recuperação
+        </p>
+
+        <form id="formEmail">
+            <input type="email" id="email" placeholder="digite seu email" required>
+            <input type="text" id="codigo" placeholder="codigo de 6 digitos" maxlength="6" pattern="[0-9]{6}" required>
+            <button type="submit" id="enviarCodigo">
+                Enviar codigo
+            </button>
+
+        </form>
+      
+             <a href="/login/login.html">Voltar para o login</a>
+
+       </div>
+    </body>
+       
+    <script src="recuperação.js"></script>
+    
+
+</body>
+</html>
